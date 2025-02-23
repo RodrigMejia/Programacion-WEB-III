@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres Columnas</title>
+    <style>
+        .container {
+            display: flex;
+        }
+        .Izquierda, .Derecha {
+            flex: 1;
+            background-color: #ddd;
+            padding: 20px;
+        }
+        .main {
+            flex: 2;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Izquierda">Izquierda</div>
+        <div class="main">Contenido principal</div>
+        <div class="Derecha">Derecha</div>
+    </div>
+</body>
+</html>
